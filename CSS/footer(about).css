@@ -1,0 +1,405 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700);
+/* Font family */
+@font-face {
+    font-family: 'ElegantIcons';
+    src: url('../Resources/icons/fonts/ElegantIcons.eot');
+    src: url('../Resources/icons/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('../Resources/icons/fonts/ElegantIcons.woff') format('woff'), url('../Resources/icons/fonts/ElegantIcons.ttf') format('truetype'), url('../Resources/icons/fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon_search,
+.icon_phone,
+.icon_mail {
+    font-family: 'ElegantIcons';
+    font-style: normal;
+     color: white;
+}
+.icon_search:before {
+    content: "\55";
+    font-size: 18px;
+}
+
+.icon_phone:before {
+    content: "\e090";
+    color: #1cc3b2;
+    font-size: 14px;
+    padding: 0px 5px 0px 0px;
+}
+
+.icon_mail:before {
+     content: "\e076";
+     color: #1cc3b2;
+    font-size: 14px;
+    padding: 0px 5px 0px 0px;
+}
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+}
+
+#footer{
+    width: 100%;
+
+    background-color: #0e2737;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+#contain{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: 0px 15%;
+    padding-top: 80px;
+}
+#footer .container1{
+    width: 290px;
+
+    font-weight: bold;
+}
+#contain .container1 > *{
+    margin: 3%;
+}
+#contain .container1>img{
+    width: 60%;
+    height: 20%;
+}
+#footer .last{
+    margin: 0px;
+    width: 30%;
+}
+#footer #contain .teal{
+    color: #19bbad;
+    font-size: 120%;
+
+}
+#footer #contain .gap{
+    margin: 8px 8px;
+
+}
+#footer #contain .grey{
+    color: rgb(202, 200, 200);
+    font-weight: lighter;
+}
+#footer #contain .link{
+    margin-left: 50px;
+    margin-right: -100px ;
+}
+#footer #contain .gap1{
+    margin-top: 9%;
+}
+#footer #contain .link .gap3{
+    margin: 0px;
+    margin-left: 0px;
+}
+#footer #contain .grey li{
+    margin-top: 6%;
+    list-style-type: none;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+}
+#footer #contain .grey a{
+    text-decoration: none;
+}
+#footer #contain .grey li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#footer #contain .grey li:before {
+    content: "\25BA \0020";
+    font-size: 8px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+#footer .inputF{
+    margin-top: 5%;
+    width: 80%;
+    height: 35px;
+    border-radius: 55px;
+    background-color: #14364b;
+    padding-left: 10px;
+    color:rgb(199, 199, 199);
+    border: rgb(202, 200, 200);
+}
+#footer .inputF:focus{
+    outline: none;
+}
+#footer .container1 form{
+    display: flex;
+}
+#footer .container1 form button{
+    border-radius: 50%;
+    width: 45px;
+    height: 35px;
+    margin-top: 5.3%;
+    margin-left: -14%;
+    background-color: #19bbad;
+    color: white;
+    border: teal;
+    font-weight: bolder;
+}
+/* copyright part */
+#footer .hrLine{
+    width: 70%;
+    height: 1px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: rgb(202, 200, 200);
+}
+.footer-down{
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+}
+#footer .footer-down{
+    color: rgb(202, 200, 200);
+}
+.footer-down .social-info{
+    margin-top: 15px;
+    margin-left: 250px;
+}
+.footer-down .social-info >*{
+    margin:0px 10px;
+    color: rgb(199, 199, 199);
+}
+/* the content above footer */
+#footer1{
+    width:80%;
+    margin: auto;
+    display: flex;
+}
+#footer1>*{
+    margin-left: 9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 6%;
+    width: 4%;
+    max-height: 50px;
+    cursor: pointer;
+}
+#contact{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    color: white;
+
+}
+#contact > img{
+    width: 100%;
+    height: 160px;
+}
+#contact .over{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+}
+#contact .over h1{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#contact .over .contactBtn{
+    width: 190%;
+    height: 60%;
+    background-color: #1cc3b2;
+    border: #1cc3b2;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+
+    margin-top: 3%;
+}
+#contact .contact-d{
+    width: 60%;
+}
+#contact .btnDiv{
+    margin-left: 10%;
+}
+@media only screen and ( max-width:1250px){
+    #contact .over .contactBtn{
+    width: 160px;
+    height: 35px;
+    background-color: #1cc3b2;
+    border: #1cc3b2;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+
+    margin-top: 3%;
+ }
+
+}
+@media only screen and ( max-width:1119px) {
+
+    #footer{
+    width: 100%;
+    background-color: #0e2737;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+    }
+    #footer #contain{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    color: white;
+    width: 80%;
+    margin: 0px 15%;
+    padding-top: 80px;
+    }
+    #footer .last{
+    margin: 0px;
+    width: 80%;
+ }
+ #footer form{
+     width: 100%;
+ }
+ #footer .container1 form button{
+    border-radius: 50%;
+    width: 45px;
+    height: 35px;
+    margin-top: 5.3%;
+    margin-left: -15%;
+    background-color: #19bbad;
+    color: white;
+    border: teal;
+    font-weight: bolder;
+}
+.footer-down .social-info{
+    margin-top: 15px;
+    margin-left: 10%;
+}
+.footer-down .social-info >*{
+    margin:0px 5px;
+    color: rgb(199, 199, 199);
+}
+.footer-down .widthAd{
+    width: 60%;
+}
+#contact .contact-d{
+    width: 50%;
+}
+#contact .btnDiv{
+    margin-left: 10%;
+}
+#contact .over{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    width: 100%;
+    }
+}
+@media only screen and ( max-width:991px){
+
+}
+@media only screen and ( max-width:767px){
+
+}
+@media only screen and ( max-width:750px){
+
+    #footer #contain{
+    display: flex;
+    flex-direction: column;
+    grid-column-gap: 50px;
+    color: white;
+    width: 80%;
+    margin: 0px 15%;
+    margin-top: 0px;
+    padding-top: 0px;
+    }
+    #footer .container1 form button{
+    border-radius: 50%;
+    width: 45px;
+    height: 35px;
+    margin-top: 5.3%;
+    margin-left: -11%;
+    background-color: #19bbad;
+    color: white;
+    border: teal;
+    font-weight: bolder;
+    }
+    .footer-down{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+
+    align-items: center;
+    }
+    .footer-down .widthAd{
+        width: 80%;
+        text-align: center;
+    }
+    .footer-down .social-info{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    #contact > img{
+        width: 100%;
+        height: 250px;
+    }
+    #contact .over{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100%;
+    }
+    #contact .btnDiv{
+        margin-left: 40%;
+
+    }
+    #contact .over{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+    }
+    #contact .over .contactBtn{
+    width: 60%;
+    }
+}
+@media only screen and ( max-width:575px){
+
+    #contact > img{
+    width: 100%;
+    height: 250px;
+    }
+    #contact .btnDiv{
+        margin:auto
+
+    }
+    #contact .contact-d{
+    width: 100%;
+    text-align: center;
+
+    }
+    #contact .over{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100%;
+    }
+    #contact .over .contactBtn{
+        width: 80%;
+        }
+}

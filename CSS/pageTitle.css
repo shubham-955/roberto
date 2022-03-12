@@ -1,0 +1,144 @@
+/*!---------------------------------------------------*/
+
+
+/** Page Title section **/
+
+.page-title-container {
+    position: relative;
+    height: 300px;
+}
+
+.page-title-container>.container{
+    height: 100%;
+}
+
+.item-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.page-title {
+    width: 100%;
+    font-size: 48px;
+    line-height: 1.3;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 0%;
+}
+
+.item-center>nav {
+    width: 100%;
+}
+
+.bread {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.bread-item {
+    list-style: none;
+    color: white;
+}
+
+.bread-item>a {
+    text-decoration: none;
+    position: relative;
+    bottom: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: 500px;
+}
+
+.bread-item>a:hover {
+    color: #1cc3b2;
+}
+
+.bread-item + .bread-item:before {
+    font-family: "FontAwesome";
+    content: '\f105';
+    color: #fff;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -100;
+    clip: rect(0, 1903px, 300px, 0);
+}
+
+.bg-img {
+    height: 100%;
+    z-index: -99;
+    background-image: url(/Resources/aboutus-bg.webp);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 618.5px;
+    overflow: hidden;
+    pointer-events: none;
+    margin-top: 159.25px;
+    transform: translate3d(0px, -94.25px, 0px);
+    transition-duration: 0ms;
+}
+
+.bg-overlay {
+    height: 100%;
+    z-index: -98;
+    background-color: rgba(14, 39, 55, 0.7);
+}
+
+/*!--------------------------------------------------------------------------*/
+
+/** Media Queries Section **/
+
+@media only screen and (max-width: 1880px) {
+    .bg-img {
+        height: 575px;
+        margin-top: 160px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .page-title {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .bg-img {
+        margin-top: 155px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-img {
+        height: 525px;
+    }
+
+    .page-title-container {
+        height: 200px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+}

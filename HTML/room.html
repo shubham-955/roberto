@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto</title>
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../CSS/pageTitle.css">
+    <link rel="stylesheet" href="../CSS/room.css">
+    <link rel="stylesheet" href="../CSS/footer(rooms).css">
+    <link rel="stylesheet" href="../Resources/font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="search-form">
+            <div class="container">
+                <form action="./index.html">
+                    <input type="search" name="search-form-input" id="searchInput" placeholder="Type your keyword ...">
+                    <button class="magnifier">
+                        <i class="icon_search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="header-top">
+            <div class="container">
+                <div class="cont">
+                    <div class="box">
+                        <div class="header-top-cont contact">
+                            <a href="#">
+                                <i class="icon_phone"></i> <span>(123) 456-789-1230</span>
+                            </a>
+                            <a href="#">
+                                <i class="icon_mail"></i> <span>info.colorlib@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="header-top-cont icons">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-tripadvisor"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-menu">
+            <div class="container">
+                <div class="cont">
+                    <div id="logo">
+                        <!-- <img data-cfsrc="./img/core-img/logo.png" alt="" data-pagespeed-url-hash="336967467"
+                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                            src="https://preview.colorlib.com/theme/roberto/img/core-img/logo.png"> -->
+                        <img src="../Resources/logo.webp" alt="">
+                    </div>
+                    <div class="header-menu-main">
+                        <div class="navbar">
+                            <div class="closeIcon">
+                                <div class="cross-wrap">
+                                    <span class="top"></span>
+                                    <span class="bottom"></span>
+                                </div>
+                            </div>
+                            <ul id="nav">
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./room.html">Rooms</a></li>
+                                <li><a href="./about.html">About Us</a></li>
+                                <li class="dropdown-cont hover"><a href="#">Pages <img
+                                            src="../Resources/icons/down-arrow.png" class="arrow" alt="">
+                                        <div class="trigger t1"> <img src="../Resources/icons/down-arrow2.png"
+                                                class="arrow" alt=""> </div>
+                                    </a>
+                                    <ul class="dropdown hover">
+                                        <li><a href="./index.html">- Home</a></li>
+                                        <li><a href="./room.html">- Rooms</a></li>
+                                        <li><a href="./single-room.html">- Single Rooms</a></li>
+                                        <li><a href="./about.html">- About Us</a></li>
+                                        <li><a href="./blog.html">- Blog</a></li>
+                                        <li><a href="./single-blog.html">- Single Blog</a></li>
+                                        <li><a href="./contact.html">- Contact</a></li>
+                                        <li class="dropdown-cont hover"><a href="#">- Dropdown <img
+                                                    src="../Resources/icons/down-arrow.svg" class="arrow" alt="">
+                                                <div class="trigger t2"> <img src="../Resources/icons/down-arrow2.png"
+                                                        class="arrow" alt=""> </div>
+                                            </a>
+                                            <ul class="dropdown hover">
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="empty"></li>
+                                        <li class="empty"></li>
+                                        <li class="empty"></li>
+                                        <li class="empty"></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html">News</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+
+                            <div class="search-btn">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="book-now-btn">
+                                <a href="#">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-toggler">
+                        <span class="navbarToggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="page-title-container">
+            <div class="container">
+                <div class="item-center">
+                    <h2 class="page-title">Our Room</h2>
+                    <nav>
+                        <ol class="bread">
+                            <li class="bread-item"><a href="index.html">Home</a></li>
+                            <li class="bread-item">Room</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="background">
+                <div class="bg-img" id="parallax1"></div>
+                <div class="bg-overlay"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="rooms-container">
+            <div class="container">
+                <div class="column">
+                    <!-- content -->
+                    <div class="content">
+                        <div class="cont-container">
+                            <div class="cont">
+                                <img src="../Resources/rooms-1.webp" alt="">
+                                <div class="Room-details">
+                                    <h2>Room View Sea</h2>
+                                    <h4>400$ <span>/ Day</span></h4>
+                                    <div class="features">
+                                        <h6>Size: <span>30 ft</span></h6>
+                                        <h6>Capacity: <span>Max Persion 5</span></h6>
+                                        <h6>Bed: <span>King beds</span></h6>
+                                        <h6>Services: <span>Wifi, television ...</span></h6>
+                                    </div>
+                                    <a href="#" class="detail-btn">View Details <span class="arrow"><i
+                                                class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="cont box">
+                                <img src="../Resources/rooms-2.webp" alt="">
+                                <div class="Room-details">
+                                    <h2>Small Room</h2>
+                                    <h4>400$ <span>/ Day</span></h4>
+                                    <div class="features">
+                                        <h6>size: <span>30 ft</span></h6>
+                                        <h6>Capacity: <span>Max Persion 5</span></h6>
+                                        <h6>Bed: <span>King beds</span></h6>
+                                        <h6>Services: <span>Wifi, television ...</span></h6>
+                                    </div>
+                                    <a href="#" class="detail-btn">View Details <span class="arrow"><i
+                                                class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="cont box">
+                                <img src="../Resources/rooms-3.webp" alt="">
+                                <div class="Room-details">
+                                    <h2>Premium King Room</h2>
+                                    <h4>400$ <span>/ Day</span></h4>
+                                    <div class="features">
+                                        <h6>Size: <span>30 ft</span></h6>
+                                        <h6>Capacity: <span>Max Persion 5</span></h6>
+                                        <h6>Bed: <span>King beds</span></h6>
+                                        <h6>Services: <span>Wifi, television ...</span></h6>
+                                    </div>
+                                    <a href="#" class="detail-btn">View Details <span class="arrow"><i
+                                                class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="cont box">
+                                <img src="../Resources/rooms-4.webp" alt="">
+                                <div class="Room-details">
+                                    <h2>Room Vip King</h2>
+                                    <h4>400$ <span>/ Day</span></h4>
+                                    <div class="features">
+                                        <h6>size: <span>30 ft</span></h6>
+                                        <h6>Capacity: <span>Max Persion 5</span></h6>
+                                        <h6>Bed: <span>King beds</span></h6>
+                                        <h6>Services: <span>Wifi, television ...</span></h6>
+                                    </div>
+                                    <a href="#" class="detail-btn">View Details <span class="arrow"><i
+                                                class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="cont box">
+                                <img src="../Resources/rooms-5.webp" alt="">
+                                <div class="Room-details">
+                                    <h2>Royal Room</h2>
+                                    <h4>400$ <span>/ Day</span></h4>
+                                    <div class="features">
+                                        <h6>Size: <span>30 ft</span></h6>
+                                        <h6>Capacity: <span>Max Persion 5</span></h6>
+                                        <h6>Bed: <span>King beds</span></h6>
+                                        <h6>Services: <span>Wifi, television ...</span></h6>
+                                    </div>
+                                    <a href="#" class="detail-btn">View Details <span class="arrow"><i
+                                                class="fa fa-long-arrow-right" aria-hidden="true"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pagination -->
+                        <div class="pag-container">
+                            <ul class="pagination" id="pagi">
+                                <li><a href="#1" class='pag-btn'>1</a></li>
+                                <li><a href="#2" class='pag-btn'>2</a></li>
+                                <li><a href="#3" class='pag-btn'>3</a></li>
+                                <li><a href="#Next" class='pag-btn'>Next<i class="next-icon bi-chevron-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- form -->
+                    <div class="form">
+                        <label for="checkIn" class="chekIn">Date</label>
+                        <div class="form-container">
+                            <input type="text" class="reservation-form" name="checkIn" id="checkInDate"
+                                placeholder="Check In">
+                            <input type="text" class="reservation-form" name="checkIn" id="checkOutDate"
+                                placeholder="Check Out">
+                        </div>
+                        <!-- Guest Droplist -->
+                        <label for="Dropdown" class="Guest-font">Guests</label>
+                        <div class="flex-drop">
+                            <!-- ---------------------------------------------------- -->
+                            <div class="select-box">
+
+                                <div class="option-container" id="option-container-1">
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d1" name="count">
+                                        <label for="count">Adults</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d1" name="count">
+                                        <label for="count">01</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d2" name="count">
+                                        <label for="count">02</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d3" name="count">
+                                        <label for="count">03</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d4" name="count">
+                                        <label for="count">04</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d5" name="count">
+                                        <label for="count">05</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d6" name="count">
+                                        <label for="count">06</label>
+                                    </div>
+                                </div>
+                                <div class="selected guest-adult" id="selected-1">
+                                    Adults
+                                </div>
+                            </div>
+
+                            <div class="select-box">
+                                <div class="option-container" id="option-container-2">
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d1" name="count">
+                                        <label for="count">Children</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d1" name="count">
+                                        <label for="count">01</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d2" name="count">
+                                        <label for="count">02</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d3" name="count" value="3">
+                                        <label for="count">03</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d4" name="count">
+                                        <label for="count">04</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d5" name="count">
+                                        <label for="count">05</label>
+                                    </div>
+                                    <div class="option">
+                                        <input type="radio" class="radio" id="d6" name="count">
+                                        <label for="count">06</label>
+                                    </div>
+                                </div>
+                                <div class="selected guest-child" id="selected-2">
+                                    Children
+                                </div>
+                            </div>
+
+
+                            <!-- ---------------------------------------------------- -->
+                        </div>
+                        <!-- slider -->
+                        <div class="price-tag">Max Price: $<span id="range1">0</span> - $<span id="range2">3000</span>
+                        </div>
+                        <!-- sliderbar -->
+                        <div class="slider-box">
+                            <div class="slider-container">
+                                <div class="multi-range-slider">
+                                    <input type="range" name="" id="input-left" min="0" max="3000" value="0">
+                                    <input type="range" name="" id="input-right" min="0" max="3000" value="3000">
+                                    <div class="slider">
+                                        <div class="track"></div>
+                                        <div class="range"></div>
+                                        <div class="thumb left"></div>
+                                        <div class="thumb right"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button class="submit-btn">Check Available</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="height-check"></div> -->
+    <footer>
+        <div id="contact">
+            <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/x1.jpg.pagespeed.ic.KK1vBvVydw.webp">
+            <div class="over">
+                <div class="contact-d">
+                    <h1>Contact us now!</h1>
+                    <span>Contact (+12) 345-678-9999 to book directly or for advice</span>
+                </div>
+                <div class="btnDiv">
+                    <button class="contactBtn">Contact Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer1">
+            <img src="https://preview.colorlib.com/theme/roberto/img/core-img/xp1.png.pagespeed.ic._uh9lbEDUL.webp">
+
+            <img src="https://preview.colorlib.com/theme/roberto/img/core-img/xp2.png.pagespeed.ic.XBcVmIcYDy.webp">
+
+            <img src="https://preview.colorlib.com/theme/roberto/img/core-img/xp3.png.pagespeed.ic.0k2LGF9o6c.webp">
+
+            <img src="https://preview.colorlib.com/theme/roberto/img/core-img/xp4.png.pagespeed.ic.nnZLnqKhIN.webp">
+
+            <img src="https://preview.colorlib.com/theme/roberto/img/core-img/xp5.png.pagespeed.ic.V-nYIIlCUo.webp">
+        </div>
+        <section id="footer">
+            <div id="contain">
+                <div class="container1">
+                    <img
+                        src="https://preview.colorlib.com/theme/roberto/img/core-img/xlogo2.png.pagespeed.ic.Co3EpLj0TJ.webp">
+                    <h4 class="teal">+12 345-678-9999</h4>
+                    <p class="gap grey">Info.colorlib@gmail.com</p>
+                    <p class="grey">856 Cordia Extension Apt. 356, Lake Deangeloburgh, South Africa</p>
+                </div>
+                <div class="container1">
+                    <h3>Our Blog</h3>
+                    <p class="gap1">Freelance Design Tricks How</p>
+                    <p class="grey"> Jan 02, 2019</p>
+                    <p class="gap1">Free Advertising For Your Online</p>
+                    <p class="grey"> Jan 02, 2019</p>
+                </div>
+                <div class="container1 link">
+                    <h3 style="margin-left:0px;">Links</h3>
+                    <ul class="grey gap3">
+                       <a href="about.html"> <li> About Us</li></a>
+                        <a href="room.html"><li> Our Room</li></a>
+                        <li> Career</li>
+                        <li> FAQs</li>
+                    </ul>
+                </div>
+                <div class="container1 last">
+                    <h3>Subscribe Newsletter</h3>
+                    <p class="grey gap1 ">Subscribe our newsletter gor get notification about new updates.</p>
+                    <form>
+                        <input placeholder="Enter your email" class="inputF">
+                        <button type="submit" class="fa">&#xf1d9;</button>
+                    </form>
+                </div>
+            </div>
+            <div class="hrLine"></div>
+            <div class="footer-down">
+                <div class="widthAd">
+                    <p>
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This
+                        template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Colorlib
+                    </p>
+                </div>
+                <div class="social-info">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+    <script src="../JS/navigation.js"></script>
+    <script src="../JS/pageTitle.js"></script>
+    <script src="../JS/room.js"></script>
+</body>
+
+</html>

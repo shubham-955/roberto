@@ -1,0 +1,363 @@
+/** Font Family **/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700);
+
+
+/** About Us Section**/
+
+/** Testimonials Section **/
+
+.about-us-container {
+    padding-top: 100px;
+    background-color: white;
+    height: auto;
+}
+
+.about-us-container .container {
+    height: auto;
+}
+
+.about-thumbnail-container {
+    max-width: 50%;
+    padding-right: 15px;
+}
+
+.about-thumbnail {
+    padding-right: 3rem;
+    margin-bottom: 93px;
+}
+
+.about-thumbnail img {
+    border-radius: 6px;
+    width: 100%;
+    height: 363px;
+}
+
+.about-content-container {
+    max-width: 50%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.about-content-heading {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about-content-heading h6 {
+    text-transform: uppercase;
+    color: #1cc3b2;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-weight: 450;
+    font-size: 1rem;
+    margin-top: 0%;
+}
+
+.about-content-heading h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    line-height: 1.2;
+    color: #2a303b;
+    font-weight: 500;
+}
+
+.about-content {
+    position: relative;
+    margin-bottom: 93px;
+}
+
+.about-content p {
+    line-height: 1.7;
+    color: #636a76;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+
+/** Parallax 2 **/
+
+.about-video-container .background {
+    z-index: -96;
+    clip: rect(0, 1903px, 481.1875px, 0);
+}
+
+.bg-img-2 {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../Resources/about-video-bg.webp);
+    position: fixed;
+    z-index: -101;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 665.594px;
+    overflow: hidden;
+    pointer-events: none;
+    margin-top: 113.90621px;
+    transition-duration: 0ms;
+    /* transform: translate3d(0px, 426px, 0px); */
+}
+
+.about-video-container {
+    position: relative;
+}
+
+.about-video-container {
+    padding: 150px 0px;
+}
+
+.about-video-container>.container {
+    height: 100%;
+}
+
+.about-video-container>.container h2 {
+    color: white;
+}
+
+.about-video-container>.container h6 {
+    color: white;
+}
+
+.about-video-container>.container>.item-center {
+    height: 181.19px;
+}
+
+.about-video-container>.container>.item-center>.about-content-heading {
+    height: 100%;
+    margin: 0px;
+}
+
+.video-content-area {
+    position: relative;
+}
+
+.video-play-btn {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    color: #1cc3b2;
+    font-size: 18px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    z-index: 100;
+    transition-duration: 300ms;
+}
+
+.video-play-btn:hover {
+    color: #ffffff;
+    background-color: #1cc3b2;
+}
+
+.video-play-btn>i {
+    padding-left: 5px;
+}
+
+
+/** Services Section **/
+
+.service-container {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.service-container>.container {
+    display: block;
+    height: auto;
+}
+
+
+.service-container .about-content-heading {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    /* outline: 1px solid red; */
+}
+
+.service-card-container {
+    display: flex;
+    /* outline: 1px solid red; */
+    gap: 30px;
+    row-gap: 0px;
+    /* justify-content: space-between; */
+    /* padding-bottom: 100px; */
+}
+
+.service-card {
+    /* outline: 1px solid red; */
+    width: 350px;
+    height: 350px;
+    aspect-ratio: 1/1;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    box-shadow: 0 2px 14px 5px rgb(20 20 20 / 5%);
+    border-radius: 3px;
+}
+
+.service-card:hover .service-title{
+    background-color: rgba(42,48,59,1);
+}
+
+.service-img {
+    position: absolute;
+    z-index: 0;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.service-img-1 {
+    background: url("../Resources/service-card-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-img-2 {
+    background: url("../Resources/service-card-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-img-3 {
+    background: url("../Resources/service-card-3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service-title {
+    /* outline: 1px solid red; */
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(42,48,59,.5);
+    color: white;
+}
+
+.service-title h5 {
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+
+/*!--------------------------------------*/
+
+/** Media Queries **/
+
+@media only screen and (max-width: 1199px) {
+    .about-video-container>.container>.item-center {
+        height: 173.98px;
+    }
+
+    .about-content-heading h2 {
+        font-size: 36px;
+    }
+
+    .about-content-container {
+        padding-right: 0px;
+    }
+
+    .about-thumbnail {
+        padding-top: 30px;
+    }
+
+    .about-thumbnail img {
+        height: auto;
+    }
+
+    .service-card {
+        width: 289.98px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .about-video-container>.container>.item-center {
+        height: 166.8px;
+    }
+
+    .about-us-container .cont {
+        flex-direction: column;
+    }
+
+    .about-thumbnail-container {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .about-thumbnail {
+        padding: 0px;
+        /* margin: 0px; */
+    }
+
+    .about-content-container {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .about-content-heading h2 {
+        font-size: 30px;
+    }
+
+    .service-card-container {
+        flex-wrap: wrap;
+    }
+
+    .service-card {
+        width: 330px;
+        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about-video-container>.container>.item-center {
+        height: 159.59px;
+    }
+
+    .about-content-heading h2 {
+        font-size: 24px;
+    }
+
+    .video-play-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+        line-height: 60px;
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+
+    .service-card {
+        width: 510px;
+
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .service-card {
+        width: 100%;
+        height: auto;
+    }
+}
