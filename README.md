@@ -11,7 +11,7 @@ best services accroding their requirements of staying.
 
 ## Authors
 
-- [@Shubham Ghadge](https://www.github.com/shubham-955)
+- [@Shubham Gadge](https://www.github.com/shubham-955)
 - [@Abhishek ](https://github.com/PA-iscar)
 - [@Prasad Avaghan](https://github.com/prasadavaghan)
 
