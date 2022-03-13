@@ -2,7 +2,28 @@
 
 https://preview.colorlib.com/#roberto
 
-# Font Family 
 
-@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700);
-font-family: 'Poppins', sans-serif;
+# Roberto Clone
+
+Roberto is the platform for Roberto hotels and resorts group where anyone can find the 
+best services accroding their requirements of staying. 
+
+
+## Authors
+
+- [@Shubham Ghadge](https://www.github.com/shubham-955)
+- [@Abhishek ](https://github.com/PA-iscar)
+- [@Prasad Avaghan](https://github.com/prasadavaghan)
+
+
+## Features
+
+- Sliders and animations 
+- Various pages of information
+- Responsiveness
+
+
+
+## Tech Stack
+
+**Client:** HTML, CSS, JavaScript
