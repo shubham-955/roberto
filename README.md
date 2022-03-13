@@ -2,13 +2,14 @@
 
 https://preview.colorlib.com/#roberto
 
-### [Checkout Demo](https://portfolio-shubham-gadge.herokuapp.com/)
-
 # Roberto Clone
 
 Roberto is the platform for Roberto hotels and resorts group where anyone can find the 
 best services accroding their requirements of staying. 
 
+### Demo
+
+[Checkout Demo](https://portfolio-shubham-gadge.herokuapp.com/)
 
 ## Authors
 
